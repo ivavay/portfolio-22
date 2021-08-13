@@ -154,14 +154,20 @@ img {
     grid-column-gap: 9%;  
   }
   .wrapper-three{
-    display: block
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 128px;
   }
   img {
     padding: 0rem;
     height: 32rem;
   }
   .small-image {
-    height: 20vw;
+    height: 412px;
+    width: 540px;
+  }
+  .medium-image {
+    height: 669px;
+    width: 1152px;
   }
   .connect {
     color: #a49c9c;
@@ -172,7 +178,7 @@ img {
     width: 86%;
     height: 100%;
     object-fit: cover;
-    height: 600px;
+    height: 1080px;
     /* padding: 24px 128px; */
   }
 }
