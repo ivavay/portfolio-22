@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>Mental Health App</title>
+</head>
+<body>
+    <div class="header">   
+        <h1 class="hello animated animatedFadeInUp fadeInUp">Mental Health App</h1> 
+     </div>
+    <div class="images">
+        <img class = "banner-image animated animatedFadeInUp fadeInUp" src="./images/mentalhealth-tn.jpeg" alt=""/>
+    </div>
+    <div class="shorter">
+        <h2>Overview</h2>
+        <p>This project is a mental health app for helping patients document their symptoms to better communicate their fluctuations to their psychiatrists / therapists. I first explored this idea at <a href="https://www.hackmentalhealth.care/about-1">UCSF HackMentalHealth 2019 </a>with my teammates, tackled it again with the help of my BuiltByGirls design mentor at the end of 2020, and then revisited it by myself again just recently in September 2021. Throughout these different iterations, I worked on user research, ideation / refinement, and product design. 
+        </p>
+    </div>
+    <div class="shorter">
+        <h2>Exploring the Problem Space</h2>
+    <p>Mental health is an area that holds near and dear to my heart as I’ve personally experienced its decline in the spring of 2018. Long story short, I had to withdraw from college and take a break for a year to recover. During the early diagnosis process when my psychiatrist was trying to diagnose me correctly and prescribe me to a suitable medication, I found it difficult to recall exactly how my symptoms had fluctuated throughout the month at our appointments. There were few qualitative data points I could confidently share with my psychiatrist each time we tried to adjust my medication dosage until it felt just right. The diagnosis / treatment processes usually take months and looking back I just wished there was an accompanying tool that could help me better communicate how I was doing that month to my psychiatrist. That way, we could have better documentation of how patients feel with different meds or at different levels of dosage and better make judgments of what prescription works best for them. </p>
+    </div>
+    <div class="shorter">
+        <h2>Early Explorations</h2>
+    <p>At the hackathon, we were under a time crunch so we tried our best to ideate quickly, get feedback from mentors onsite, and prototyped a basic functioning app with code. We didn’t end up making too much progress but it was great getting to know my teammates / attending events at the hackathon. 
+    <br><br>
+        At the end of 2020, from October to December, I met with my BuiltByGirls design mentor frequently to get feedback on my in-progress designs. By then, I had finished my user research and was struggling to take in all of the insights to distill them to a few actionable design directions. I made a few screens that checked in with the user on different symptoms and had a little weekly / monthly graphs at the bottom. Overall, I felt like I was really rusty with my visual design skills and felt unmotivated to keep on going with the project. 
+        </p>
+
+    </div>
+    
+    <div class="shorter">
+        <h2>Conducting User Research</h2>
+        <p>
+            To better gain a holistic understanding of problems that people who had experienced mental health struggled with, I interviewed three of my friends who were kind enough to open up about their experiences over video calls. The questions that I had asked covered areas like finding a therapist, their diagnostic / recovery process, and things they do to help lessen symptoms. With their permission, I audio recorded the interviews and auto-transcribed them using Otter AI. Then I went ahead and highlighted the quotes that stood out to me. In synthesizing all these different divergent insights, I still felt like the diagnostic / recovery stages were areas that needed more work on, so I went into wireframing with one question in mind: how might we design an experience for mental health patients to better document their symptoms and communicate with their health practitioners?
+        </p>
+    </div>
+    
+    <div class="shorter">
+        <h2>Wireframes</h2>
+    </div>
+    <div class="images extra-space-above">
+        <img class = "medium-image" src="./images/mh-wireframes.png" alt=""/>
+    </div>
+    <div class="shorter">
+        <h2>User Stories</h2>
+        <p>
+            - Someone who forgets to take their pills daily <br>
+            - Someone who is still figuring which level of dosage is best with their psychiatrist, because it is usually a several month long process <br>
+            - Someone who often needs to provide qualitative data points of their moods throughout a month but don’t have a good way of documenting them
+            
+        </p>
+    </div>
+    <div class="shorter">
+        <h2>Final Designs</h2>
+    </div>
+    <div class="images extra-space-above">
+        <img class = "medium-image" style= "height: 100% !important;" src="./images/mentalhealth-tn.jpeg" alt=""/>
+    </div>
+    <div class="images extra-space-above">
+        <img class = "medium-image" style= "height: 100% !important;" src="./images/mh-checkin.gif" alt=""/>
+    </div>
+    <div class="shorter">
+        <p class="extra-space-above">When you first enter the app, it greets you with five different check-in questions that prompt you to choose an emoji and describe your current symptom in one word. The word is generated as a hashtag that you can reuse in your future check-ins. This helps give the user more voice to add on to why they chose a certain emoji, since the same emoji can mean different things to even the same person at different times. And, if the user is in the “mood” to write more to describe their symptoms, they could use the notes section. I wanted to make sure that the user is doing the bare minimum to get the data down but are also provided with the option to write more if their heart desires. </p>
+    </div>
+    <div class="images extra-space-above">
+        <img class = "medium-image" style= "height: 100% !important;" src="./images/mh-chart.gif" alt=""/>
+    </div>
+    <div class="shorter">
+        <p class="extra-space-above">
+            From the home page, you can also navigate to the charts where you can access the data points visualized via different symptoms throughout the months. To interact with the charts, you can swipe left and right to view the fluctuations of symptoms on different days, as well as tap into a specific point to view your record from that day. 
+            <br><br>
+            To ensure that the charts look accurate and are not misrepresented by a user’s tendency to only log on certain types of days (low days), the app sends notifications and maintains a streak to encourage users to log every day regardless of how good / bad their symptoms are on that day. 
+             </p>
+    </div>
+    <div class="images extra-space-above">
+        <img class = "medium-image" src="./images/mh-profile.png" alt=""/>
+    </div>
+    <div class="shorter">
+        <p class="extra-space-above">Lastly, on the profile page, the user has access to their current prescription and their history of medications / dosage adjustments.  </p>
+    </div>
+    <div class="shorter">
+        <h2>Learnings + Reflections</h2>
+        <p>One part that I still am trying to figure out is how to depict the charts properly so that even if the user misses a few days or even a week of inputs, it’ll still visualize the charts in a non-misleading way. And also, I’m speculating what should be on the homepage after a user has finished answering all the check-in questions. 
+            <br><br>
+        Overall, I’m happy that I was able to get so far with the project after multiple times of frustration/demotivation. I believe there is still a lot of work to be done in the area of mental health to better facilitate the patients toward recovery. I’m excited for future work in this area, so hit me up if anyone ever wants to chat about how we can improve this space! 
+            
+        </p>
+    </div>
+   
+    <br><br>
+  
+
+</body>
+</html>
