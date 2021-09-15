@@ -129,7 +129,54 @@ img {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wrapper {
     grid-template-columns: repeat(1, 1fr);
-    padding: 0px 32px;
+    padding: 0px 64px;
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    width: 140%;
+    margin: 0;
+    padding:  216px 64px 64px 64px;
+  }
+  nav {
+    visibility: hidden;
+  }
+  img {
+    width: 140%;
+    height: 20rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .connect {
+    padding: 0px 64px 0px 64px;
+  }
+  .socials {
+    padding: 16px 64px 0px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-footer{
+    width: 140%;
+  }
+  .madeby {
+    visibility: hidden;
+  }
+  h1.hello {
+    margin: 0;
+    padding:  64px;
+    font-size: 24px;
+  }
+  .shorter {
+    padding: 0px 64px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -264,7 +311,6 @@ button {
     width: 50%;
 }
 .shorter {
-    padding: 0px 128px;
     display: flex;
     flex-direction: column;
     justify-content: center;
